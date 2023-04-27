@@ -1,0 +1,15 @@
+[book]
+authors = ["Chaitanya Agrawal"]
+language = "en"
+multilingual = false
+src = "docs"
+title = "CTF 101"
+description = "CTF 101: A Field Guide to the Art of Security CTF Survival"
+
+[output.html]
+site-url = "/ctf-101/"
+
+[build]
+build-dir = "book"
+create-missing = true
+use-default-preprocessors = true
